@@ -17,7 +17,7 @@
 		},
 		{
 			"name": "keyword.control.nodespeak",
-			"match": "\\b(if|else|while|for|to|return|continue|break|inline|macro|input|output|static|assert|include)\\b"
+			"match": "\\b(if|else|while|for|to|return|continue|break|inline|macro|input|output|static|assert|include|no_unroll)\\b"
 		},
 		{
 			"name": "keyword.operator.nodespeak",

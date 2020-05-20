@@ -2,8 +2,8 @@
     "name": "nodespeak-language-support",
     "displayName": "Nodespeak Language Support",
     "description": "Syntax highlighting for Nodespeak, a JIT compiled language for number crunching.",
-    "version": "0.0.1",
-    "publisher": "codecube",
+    "version": "0.0.2",
+    "publisher": "codecube2",
     "repository": "https://gitlab.com/Code_Cube/nodespeak-syntax.git",
     "engines": {
         "vscode": "^1.45.0"
