@@ -1,0 +1,25 @@
+{
+    "name": "nodespeak-language-support",
+    "displayName": "Nodespeak Language Support",
+    "description": "Syntax highlighting for Nodespeak, a JIT compiled language for number crunching.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "nodespeak",
+            "aliases": ["Nodespeak", "nodespeak"],
+            "extensions": [".ns"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "nodespeak",
+            "scopeName": "source.nodespeak",
+            "path": "./syntaxes/nodespeak.tmLanguage.json"
+        }]
+    }
+}
